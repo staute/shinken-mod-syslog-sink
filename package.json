@@ -1,0 +1,25 @@
+{
+  "name": "syslog-sink",
+  "types": ["module"],
+  "version": "1.4",
+  "homepage": "http://github.com/shinken-monitoring/mod-syslog-sink",
+  "author": "Jean Gabès",
+  "description": "Export data to a syslog server",
+  "contributors": [
+    {
+      "name": "Jean Gabès",
+      "email": "naparuba@gmail.com"
+    }
+  ],
+  "repository": "https://github.com/shinken-monitoring/mod-syslog-sink",
+  "keywords": [
+    "module",
+    "broker",
+    "log",
+    "syslog"
+  ],
+  "dependencies": {
+    "shinken": ">=1.4"
+  },
+  "license": "AGPL"
+}
