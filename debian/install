@@ -1,0 +1,2 @@
+module/* usr/share/pyshared/shinken/modules/syslog-sink
+etc/modules/* etc/shinken/modules

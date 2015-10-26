@@ -1,0 +1,23 @@
+Source: shinken-mod-syslog-sink
+Section: net
+Priority: optional
+Maintainer: PLANET IC <technik@planet-ic.de>
+XSBC-Original-Maintainer: Shinken Debian packages maintainers <pkg-shinken-maint@lists.alioth.debian.org>
+Uploaders: Thibault Cohen <thibault.cohen@savoirfairelinux.com>, Mathieu Parent <sathieu@debian.org>
+Build-Depends: debhelper (>= 9), python
+Standards-Version: 3.9.5
+XS-Python-Version: >= 2.5, << 3.0
+Vcs-Git: https://github.com/shinken-monitoring/mod-syslog-sink.git
+Vcs-Browser: https://github.com/shinken-monitoring/mod-syslog-sink
+Homepage: http://shinken.io/package/syslog-sink
+
+Package: shinken-mod-syslog-sink
+Architecture: all
+Depends: ${misc:Depends}, shinken-common
+Breaks: shinken (<< 2~), shinken-common (<< 2~), shinken-core (<< 2~)
+Description: Shinken syslog-sink module
+ Shinken module for exporting all logs into syslog
+ .
+ Shinken is a new, Nagios compatible monitoring tool, written in Python. The
+ main goal of Shinken is to allow users to have a fully flexible architecture
+ for their monitoring system that can easily scale to large environments.
