@@ -1,5 +1,5 @@
-shinken-mod-syslog-sink (1.4-1) unstable; urgency=medium
+shinken-mod-syslog-sink (1.4-1+PIC001) unstable; urgency=medium
 
   * New upstream version 1.4
 
- -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Wed, 08 Sep 2015 17:34:17 +0100
+ -- Stefan Taute (PLANET IC GmbH) <taute@planet-ic.de>  Wed, 28 Oct 2015 10:39:42 +0100
